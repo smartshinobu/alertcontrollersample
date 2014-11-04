@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)alertshow:(id)sender;
+- (IBAction)alertshow2:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
